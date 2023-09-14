@@ -89,14 +89,14 @@ const App = () => {
     }
 
     return (
-        <div>
+        <div id="main">
            <h1>Our Menu</h1>
 
            <div className="categories">
                 <button className="btn" onClick={()=>setFoodItems(foodData)}>All</button>
-                <button className="btn" onClick={()=>getFoodItems("breakfast")}>Breakfast</button>
-                <button className="btn" onClick={()=>getFoodItems("lunch")}>Lunch</button>
-                <button className="btn" onClick={()=>getFoodItems("shakes")}>Shakes</button>
+                <button className="btn" id="filter-btn-3" onClick={()=>getFoodItems("breakfast")}>Breakfast</button>
+                <button className="btn" id="filter-btn-2" onClick={()=>getFoodItems("lunch")}>Lunch</button>
+                <button className="btn" id="filter-btn-1" onClick={()=>getFoodItems("shakes")}>Shakes</button>
            </div>
 
            <div className="food-card">
