@@ -10,3 +10,14 @@ button{
     justify-content: center;
     align-items: center;
 }
+
+.food-card{
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.food-card-item{
+    background-color: chocolate;
+    border: 1px solid green;
+}
